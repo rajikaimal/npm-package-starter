@@ -1,0 +1,25 @@
+{
+  "name": "npm-package-starter",
+  "version": "0.1.0",
+  "description": "Customizable package starter for npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajikaimal/npm-package-starter.git"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "starter",
+    "kit"
+  ],
+  "author": "rajikaimal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rajikaimal/npm-package-starter/issues"
+  },
+  "homepage": "https://github.com/rajikaimal/npm-package-starter#readme"
+}
