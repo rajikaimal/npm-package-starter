@@ -24,6 +24,8 @@
   "homepage": "https://github.com/rajikaimal/npm-package-starter#readme",
   "devDependencies": {
     "chai": "^3.5.0",
+    "eslint": "^3.7.1",
+    "eslint-config-google": "^0.6.0",
     "mocha": "^3.1.0",
     "shelljs": "^0.7.4"
   }
