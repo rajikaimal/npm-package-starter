@@ -6,6 +6,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "bin": {
+    "nps": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rajikaimal/npm-package-starter.git"
