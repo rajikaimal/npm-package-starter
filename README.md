@@ -15,13 +15,8 @@ $ nps awesome-package -m
 ```
 ## Options
 
-### -m
-
-Add tests with mocha
-
-### -a
-
-Add tests with ava
+- `-m` - Add tests with mocha.
+- `-a` - Add tests with ava.
 
 ## License
 
