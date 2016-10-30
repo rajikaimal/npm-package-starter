@@ -1,5 +1,6 @@
 #!/usr/bin/env/node
 
+const path = require('path');
 const chalk = require('chalk');
 const ora = require('ora');
 const shelljs = require('shelljs/global');
@@ -14,17 +15,17 @@ const spinner = ora(`creating package ${process.argv[2]}`).start();
 
 mkdir('-p', process.argv[2]);
 //copy files with names
-cp('templates/*', process.argv[2]);
+cp(path.join(__dirname, 'templates/*'), process.argv[2]);
 //copy dot-files
-cp('-R', 'templates/.*', process.argv[2]);
+cp('-R', path.join(__dirname, 'templates/.*'), process.argv[2]);
 
 if(process.argv[3] === '-m') {
 	spinner.text = 'creating mocha tests';
-	cp('-R', 'templates/mocha/test', process.argv[2]);
+	cp('-R', path.join(__dirname, 'templates/mocha/test'), process.argv[2]);
 }
 else if(process.argv[3] === '-a') {
 	spinner.text = 'creating ava tests';
-	cp('-R', 'templates/ava/test', process.argv[2]);
+	cp('-R', path.join(__dirname, 'templates/ava/test'), process.argv[2]);
 }
 else {
 	spinner.text = 'please provide correct options';
