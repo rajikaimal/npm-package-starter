@@ -26,15 +26,15 @@
   },
   "homepage": "https://github.com/rajikaimal/npm-package-starter#readme",
   "devDependencies": {
-    "chai": "^3.5.0",
-    "eslint": "^3.7.1",
-    "eslint-config-google": "^0.6.0",
-    "mocha": "^3.1.0",
-    "shelljs": "^0.7.4"
+    "chai": "^4.1.2",
+    "eslint": "^4.19.1",
+    "eslint-config-google": "^0.9.1",
+    "mocha": "^5.2.0",
+    "shelljs": "^0.8.2"
   },
   "dependencies": {
-    "chalk": "^1.1.3",
-    "ora": "^0.3.0",
-    "shelljs": "^0.7.4"
+    "chalk": "^2.4.1",
+    "ora": "^2.1.0",
+    "shelljs": "^0.8.2"
   }
 }
