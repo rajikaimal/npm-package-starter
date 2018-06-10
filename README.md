@@ -1,5 +1,7 @@
 # npm-package-starter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/rajikaimal/npm-package-starter.svg)](https://greenkeeper.io/)
+
 Package starter for npm 
 
 ## Install
